@@ -1,4 +1,4 @@
-POST http://localhost:3001/api/notes 
+POST https://frozen-peak-59745.herokuapp.com/api/notes
 Content-Type: application/json
 
 
@@ -13,7 +13,9 @@ Content-Type: application/json
 
 
 {
-
+    "content": "Html is easy",
+    "important": true
+    
 }
 
 
